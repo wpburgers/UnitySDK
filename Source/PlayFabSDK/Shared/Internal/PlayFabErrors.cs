@@ -399,8 +399,8 @@ namespace PlayFab
         InvalidFacebookInstantGamesSignature = 1396,
         FacebookInstantGamesAuthNotConfiguredForTitle = 1397,
         EntityProfileConstraintValidationFailed = 1398,
-        PlayInsightsIngestionKeyPending = 1399,
-        PlayInsightsIngestionKeyNotFound = 1400,
+        TelemetryIngestionKeyPending = 1399,
+        TelemetryIngestionKeyNotFound = 1400,
         StatisticTagRequired = 1401,
         StatisticTagInvalid = 1402,
         MatchmakingEntityInvalid = 2001,
@@ -439,7 +439,8 @@ namespace PlayFab
         NintendoSwitchDeviceIdNotLinked = 2034,
         MatchmakingNotEnabled = 2035,
         MatchmakingGetStatisticsIdentityInvalid = 2036,
-        MatchmakingStatisticsIdMissing = 2037
+        MatchmakingStatisticsIdMissing = 2037,
+        CannotEnableMultiplayerServersForTitle = 2038
     }
 
     public delegate void ErrorCallback(PlayFabError error);

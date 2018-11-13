@@ -1852,8 +1852,8 @@ namespace PlayFab.AdminModels
         InvalidFacebookInstantGamesSignature,
         FacebookInstantGamesAuthNotConfiguredForTitle,
         EntityProfileConstraintValidationFailed,
-        PlayInsightsIngestionKeyPending,
-        PlayInsightsIngestionKeyNotFound,
+        TelemetryIngestionKeyPending,
+        TelemetryIngestionKeyNotFound,
         StatisticTagRequired,
         StatisticTagInvalid,
         MatchmakingEntityInvalid,
@@ -1892,7 +1892,8 @@ namespace PlayFab.AdminModels
         NintendoSwitchDeviceIdNotLinked,
         MatchmakingNotEnabled,
         MatchmakingGetStatisticsIdentityInvalid,
-        MatchmakingStatisticsIdMissing
+        MatchmakingStatisticsIdMissing,
+        CannotEnableMultiplayerServersForTitle
     }
 
     [Serializable]
